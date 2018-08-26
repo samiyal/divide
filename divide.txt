@@ -1,0 +1,22 @@
+/*  objective :-the below  c program takes two number from the user and  divide the bigger number by the smaller nuymber */
+author:- samiyal massy
+email:- 777samiyal777@gmail.com
+------------------------------------------------------------------------------------------
+*/
+#include<stdio.h>
+#include<conio.h>
+int main()
+{
+  int a,b,c;
+  printf("\n enter the value of the a");
+  scanf("%d",&a);
+  printf("a=%d");
+  printf("\n enter the value of the b");
+  scanf("%d",&b);
+  printf("b=%d",b);
+  c=a+b;
+  printf("\n the value of the c");
+  printf("c=%d",c);
+  getch();
+  return 0; 
+}
